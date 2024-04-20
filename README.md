@@ -7,26 +7,31 @@ This Django project implements a system for public transportation that leverages
 
 ## Features
 - **User Registration**: Users can register by providing their username, email, and password.
+  
 ![alt text](https://imgur.com/CnaXZY6.png)
 
 - **Facial Recognition**: Utilizes facial recognition technology to identify passengers.
+  
   ![alt text](https://imgur.com/0mho9nJ.png)
   
 - **Automatic Fare Deduction**: Fares are automatically deducted from passengers' accounts once their identity is verified.
-  ![alt text](https://imgur.com/pmlMGiI.png)
   
-- **Wallet Management**: Users can view their wallet balance and add funds as needed.
   ![alt text](https://imgur.com/ZfV3aZm.png)
   
+- **Wallet Management**: Users can view their wallet balance and add funds as needed.
+ 
   ![alt text](https://imgur.com/oMXYTLd.png)
   
 - **Admin Panel**: Administrators have access to features like starting and ending boarding sessions, calculating fare durations, and managing payments.
+  
   ![alt text](https://imgur.com/q3pF9Dc.png)
   
 - **OTP Authentication**: Implements OTP-based authentication for login and password recovery.
+  
  ![alt text](https://imgur.com/b5JWrkH.png)
   
-- **Bot Integration**: Includes a chatbot feature for user interaction.
+- **Bot Integration**: Includes a chatbot feature for admin interaction.
+  
 ![alt text](https://imgur.com/j1bVbvB.png)
 
 ## Installation
