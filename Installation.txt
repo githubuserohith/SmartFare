@@ -1,0 +1,37 @@
+Team members:
+
+Aishwary Samuel (03)
+Bhavana (06)
+Gowtham (11)
+Juwel (13)
+Rohith (27)
+Tezi Sourya (33)
+Vikram Bansal (35)
+
+To run locally:
+
+1.	Unzip the given .rar file and maintain the folder structure
+2.	Open visual studio and navigate using "cd" (change directory) to the path containing "manage.py" file
+3.	Create a new environment and install the libraries using below command
+	pip install -r requirements.txt
+4.	Open .env file and update with your own stripe api keys
+5. 	Download "db drowser for windows" to view the sqlite file
+6. 	Make sure you have python 3.8 (the dlib file provided is only for the specified python version)
+7.	Open terminal and run "python manage.py runserver"
+8.	Navigate to "http://127.0.0.1:8000/" to use the application
+
+
+Note- 	1) If you make any change to "model.py" file, make sure to 
+	   run "python manage.py makemigrations" and then
+	   run "python manage.py migrate"
+	2) Dataset used will be in the "training" folder. This is captured through "register" screen in the application
+
+
+To deploy on Azure-
+
+1.	Create a github repository for the project
+2.	Azure --> Create a resource --> Web app
+3.	Choose runtime stack as python 3.8. Go with default options for others
+4. 	Deployment centre --> Github actions --> choose the repo and branch
+5.	A workflow will be create in github. Edit the yaml file to use "requirements_azure.txt" instead of "requirements.txt" file
+6.	Once build and deploy is successfull, you'll get a default domain in overview. Use this to use the application
